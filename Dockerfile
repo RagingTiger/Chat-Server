@@ -17,4 +17,4 @@ RUN npm install
 WORKDIR /home/Chat-Server/public/js
 
 # start server on container run
-CMD ["nmp", "start"]
+CMD ["npm", "start"]
